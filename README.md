@@ -1,4 +1,4 @@
-# ShopSphere
+# Sametag
 
 ## Overview
 A simple e-commerce frontend built with React that allows users to browse products, view product details, register/login, and add new products.
