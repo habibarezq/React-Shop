@@ -1,0 +1,71 @@
+.wave-background {
+    position: absolute; /* Ensures it stays at the top */
+    width: 100%; /* Makes it stretch across the full width */
+    height: 100; /* Adjust height to make it smaller */
+    overflow: hidden; /* Prevents extra parts from showing */
+    z-index: 1;
+}
+
+.wave-background svg {
+    width: 100%; /* Ensures it stretches to full width */
+    height: 100%; /* Matches the parent div’s height */
+}
+
+.shopping-cart-icon {
+    font-size: 3rem !important; /* Adjust size as needed */
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10; /* Ensures it's on top */
+    cursor: pointer;
+}
+
+.nav-title{
+    font-size: 150px;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+.search-bar {
+    border-radius: 20px !important;
+    background-color: rgb(255, 255, 255) !important;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    width: 250px;
+    transform: translateX(-50%);
+    z-index: 10; /* Ensures it's on top */
+}
+
+.logout-icon{
+    font-size: 3rem !important; /* Adjust size as needed */
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 150px;
+    z-index: 10; /* Ensures it's on top */
+    cursor: pointer;
+}
+
+.home-icon {
+    font-size: 3rem !important; /* Adjust size as needed */
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    z-index: 10; /* Ensures it's on top */
+    cursor: pointer;
+}
+
+.add-icon{
+    font-size: 3rem !important; /* Adjust size as needed */
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 140px;
+    z-index: 10; /* Ensures it's on top */
+    cursor: pointer;
+}
